@@ -1,0 +1,40 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+  margin-top: 3em;
+  margin: 0;
+  line-height: 1.8em;
+  background-color: #704f4f;
+}
+
+ul {
+  text-align: center;
+  padding: 2px;
+}
+
+li {
+  text-align: center;
+  padding: 2px;
+}
+
+p {
+  text-align: start;
+  padding-left: 50px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 20px;
+  color: brown;
+  font-size: larger;
+  margin-bottom: 3px;
+}
+
+p span {
+  font-size: 25px;
+}
+
+span {
+  font-size: large;
+}

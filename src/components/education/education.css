@@ -1,0 +1,40 @@
+.edu-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  margin: 0;
+  margin-bottom: 2em;
+  line-height: 1.8em;
+  background-color: #704f4f;
+}
+
+.paper-school {
+  display: flex;
+  flex-direction: column;
+  background-color:antiquewhite;
+}
+
+span {
+  color: #6b1111;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.3em 1em;
+}
+
+.school span,
+.job-title span {
+  color: #000000;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1466px) {
+  .paper-school {
+    overflow: scroll;
+  }
+
+
+}

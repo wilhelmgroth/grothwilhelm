@@ -1,0 +1,18 @@
+ footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #cbc5a5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ }
+
+ .footer-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   
+}

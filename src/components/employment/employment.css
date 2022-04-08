@@ -1,0 +1,49 @@
+.emp-container {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+  margin-top: 3em;
+  margin: 0;
+  line-height: 1.8em;
+  background-color: #704f4f;
+}
+
+.employ-paper {
+  display: block;
+
+}
+
+.job-title {
+  text-transform: capitalize;
+  padding-left: 1em;
+}
+
+.employ-roles {
+  padding-left: 3.2em;
+}
+
+.job-description {
+  padding-left: 1em;
+  display: block;
+  list-style-type: none;
+}
+
+.emp-li {
+  padding-left: 2em;
+  text-align: left;
+}
+ul.job-description li:before {
+  content: "✔";
+  padding-right: 0.5em;
+  color: #5c0b06;
+}
+
+.school span,
+.job-title span {
+  color: #000000;
+  text-decoration: underline;
+}
+
+span {
+  color: #6b1111;
+}
