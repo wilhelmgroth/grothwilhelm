@@ -23,9 +23,17 @@
     rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 
-.repo-top h1 {
-  padding-left: 4em;
-  font-weight: normal;
+.list-item {
+  margin-right: 10px;
+}
+
+.git-repo {
+}
+
+.title-top {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 100px;
 }
 
 .repo-container-upper {

@@ -39,11 +39,11 @@ const Portfolio = () => {
       {!isLoading ? (
         <div className="repo-top">
           {" "}
-          <h1>My repositories</h1>{" "}
+          <span className="title-top">My repositories</span>{" "}
           {repos.map((x, i) => (
             <div key={i} className="repo-container">
               <div className="repo-container-upper">
-                <h4>{x.name}</h4>
+                <span className="git-repo">{x.name}</span>
                 <img
                   className="github-icon"
                   src={githubIcon}
@@ -54,9 +54,13 @@ const Portfolio = () => {
               <div className="repo-container-middle">
                 <ul>
                   <li>{x.description}</li>
-                  <li>Creation date: {x.created_at}</li>
+                  <li>
+                    <span className="list-item">Creation date: </span>
+                    {x.created_at}
+                  </li>
                   <li onMouseEnter={handleX} onMouseLeave={deHandleX}>
-                    Latest update: {x.updated_at}
+                    <span className="list-item">Latest update: </span>
+                    {x.updated_at}
                   </li>
                 </ul>
               </div>
