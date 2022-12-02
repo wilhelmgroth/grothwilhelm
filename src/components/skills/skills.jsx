@@ -20,19 +20,18 @@ const Skills = () => {
       >
         <Paper elevation={10}>
           <h4>Languages i write</h4>
-
           <ul>
             <li>
               <span>C#</span>
             </li>
             <li>
-              <span>JavaScript</span>
-            </li>
-            <li>
-              <span>C++</span>
+              <span>JavaScript/TypeScript</span>
             </li>
             <li>
               <span>Python</span>
+            </li>
+            <li>
+              <span>Java</span>
             </li>
           </ul>
         </Paper>
@@ -43,7 +42,10 @@ const Skills = () => {
               <span>React.JS</span>
             </li>
             <li>
-              <span>.NET Framework</span>
+              <span>Angular</span>
+            </li>
+            <li>
+              <span>Svelte</span>
             </li>
           </ul>
         </Paper>

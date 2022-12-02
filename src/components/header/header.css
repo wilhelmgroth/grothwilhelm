@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: fixed;
   color: rgb(107, 6, 6);
-  max-height: 100%;
+  max-height: 100vh;
 }
 
 .header-name {
@@ -77,7 +77,7 @@
 .i-title-item {
   height: 50px;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal;
   color: #8c1f1f;
   display: flex;
 }
@@ -89,7 +89,6 @@
 }
 
 @media screen and (max-width: 960px) {
-
   .header-name {
     font-weight: lighter;
     font-size: 70px;
@@ -102,5 +101,4 @@
   .i-title-item {
     font-size: 20px;
   }
-
 }

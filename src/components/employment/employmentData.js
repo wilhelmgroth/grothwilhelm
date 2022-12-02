@@ -1,17 +1,16 @@
 export const employmentData = [
   {
     work: "Elgiganten Hudiksvall",
-    year: "03.2015 - pågående",
-    roles: "Avdelningsledare/B2B-ansvarig CE/Kassaansvarig/Aftersales-Support",
-    position: "Säljare",
+    year: "03.2015 - Ongoing",
+    roles: "department mangager/B2B/cashier/Aftersales-Support",
+    position: "Salesman",
   },
 ];
 
 export const employmentSkills = [
   {
-    skill1: "Utveckling och coaching",
-    skill2: "Ansvar för budget och inköp för CE",
-    skill3:
-      "Min roll som B2B-ansvarig var att i en del av team ha ansvar för CE företagsförsäljning och erbjuda företag kompletta lösningar inom hemelektronik.",
+    skill1: "Sales",
+    skill2: "Responsible for forecasts, imports and strategy",
+    skill3: "Aftersales and support.",
   },
 ];

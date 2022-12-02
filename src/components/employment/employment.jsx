@@ -40,7 +40,7 @@ const Employment = () => {
             return (
               <div key={key}>
                 {data.roles}
-                <strong className="employ-roles">Tidiga roller: </strong>
+                <strong className="employ-roles">Previous roles: </strong>
                 <ul className="job-description">
                   <li className="emp-li"> {data.skill1} </li>
                   <li className="emp-li"> {data.skill2} </li>
