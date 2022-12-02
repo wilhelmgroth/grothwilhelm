@@ -1,18 +1,61 @@
- footer {
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: #cbc5a5;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
- }
+footer {
+  /* margin-top: 1rem;
+  padding-top: 1rem; */
+  /* padding-bottom: 1rem; */
+  /* margin-top: 10vh; */
+  width: 100%;
+  background-color: rgb(216, 222, 226);
+  position: fixed;
+  bottom: 0;
+  height: 16vh;
+}
 
- .footer-content {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   text-align: center;
-   
+.logo-footer {
+  background: url("../../assets/monkas.png");
+  width: 90px;
+  height: 80px;
+  border-radius: 40%;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-content {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 10px auto;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+}
+
+.footer-bottom .span1 {
+  opacity: 0.65;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.footer-bottom .span2 {
+  opacity: 0.65;
+  font-weight: 200;
+  font-size: 1rem;
 }

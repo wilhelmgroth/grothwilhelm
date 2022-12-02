@@ -53,7 +53,9 @@ const Portfolio = () => {
               </div>
               <div className="repo-container-middle">
                 <ul>
-                  <li>{x.description}</li>
+                  <li>
+                    <span className="git-desc">{x.description}</span>
+                  </li>
                   <li>
                     <span className="list-item">Creation date: </span>
                     {x.created_at}

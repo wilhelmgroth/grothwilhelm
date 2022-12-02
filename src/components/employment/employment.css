@@ -6,11 +6,11 @@
   margin: 0;
   line-height: 1.8em;
   background-color: #704f4f;
+  height: fit-content;
 }
 
 .employ-paper {
   display: block;
-
 }
 
 .job-title {

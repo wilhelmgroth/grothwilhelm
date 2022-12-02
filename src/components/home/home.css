@@ -4,7 +4,7 @@
   padding: 3em;
   margin-top: 3em;
   margin: 0;
-  background-color:#704f4f;
+  background-color: #704f4f;
 }
 
 .home-container div {
@@ -21,16 +21,19 @@ ul.contact-info li:before {
 }
 
 .contact-info {
-margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .li-info {
-margin-left: 50px;
-text-align: left;
+  margin-left: 50px;
+  text-align: left;
 }
 
 span {
-font-size: small;  
+  font-size: small;
 }
 
 .span-info {
@@ -51,8 +54,8 @@ font-size: small;
 
 .pl-title {
   color: white;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 140px;
+  font-weight: lighter;
   padding-bottom: 25px;
 }
 
@@ -77,6 +80,4 @@ font-size: small;
   .pl-texts {
     width: 100%;
   }
-
-
 }

@@ -1,11 +1,16 @@
 .portfolio-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
   padding: 2em;
-  background-color: rgb(255, 255, 255);
+  background-color: #704f4f;
+}
+
+.git-desc {
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .repo-container {
@@ -16,10 +21,11 @@
   padding: 0 4em 0 3em;
   margin: 1em 0 0 0;
   padding-left: 10px;
-
-  box-shadow: rgba(194, 150, 150, 0.25) 0px 54px 55px,
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(208, 188, 188, 0.12) 0px -12px 30px,
-    rgba(163, 117, 117, 0.12) 0px 4px 6px, rgba(143, 9, 9, 0.17) 0px 12px 13px,
+    rgba(212, 194, 194, 0.12) 0px 4px 6px,
+    rgba(223, 212, 212, 0.17) 0px 12px 13px,
     rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 
@@ -31,9 +37,10 @@
 }
 
 .title-top {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-left: 100px;
+  color: white;
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-left: 40px;
 }
 
 .repo-container-upper {
