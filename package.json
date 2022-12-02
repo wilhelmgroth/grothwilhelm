@@ -1,9 +1,10 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "homepage": "https://wilhelmgroth.github/io/",
+  "homepage": "https://wilhelmgroth.github/io/portfolio",
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.4.4",
@@ -17,6 +18,7 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "save-dev": "0.0.1-security",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
