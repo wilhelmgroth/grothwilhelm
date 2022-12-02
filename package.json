@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "homepage": "https://wilhelmgroth.github/io/portfolio",
+  "homepage": "https://wilhelmgroth.github.io/portfolio",
   "private": true,
   "dependencies": {
     "-": "0.0.1",
